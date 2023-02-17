@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: RBA Zadatak
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/local_zadatak
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
